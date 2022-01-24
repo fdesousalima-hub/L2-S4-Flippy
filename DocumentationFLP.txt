@@ -1,0 +1,33 @@
+﻿Nous avons pris la décision de créer des fichiers au format flp (pour les flippers). Cela nous a permis de créer plusieurs flippers et d’avoir un code aéré, propre. Cela permet en outre de rendre l’importation des flippers plus facile.
+
+
+Dans ces fichiers nous écrivons les objets sous la forme suivante:
+
+
+Bumper/PosX;PosY;Rayon;Proportion
+SlingshotRight/PosX;PosY;Proportion
+SlingshotLeft/PosX;PosY;Proportion
+CibleFixe/PosX1;PosY1;Proportion1;PosX2;PosY2;Proportion2;.... (possibilité d’en écrire plusieurs sur une ligne)
+Line/PosX1;PosY1;PosX2;PosY2;PosX3;PosY3;PosX4;PosY4;... (les points sont définis les uns à la suite des autres)
+Launcher/PosX;PosY;Proportion
+FlipLeft/PosX;PosY;Proportion
+FlipRight/PosX;PosY;Proportion
+Defeat/PosX;PosY;PosX;PosY;PosX;PosY;PosX;PosY (on définit autant de points que voulu)
+Trou/PosX1;PosY1;PosX2;PosY2 (le premier trou dirige la balle au 2e trou)
+Planete/PosX;PosY;Rayon;Proportion
+
+
+
+
+
+
+Nous créons donc chaque flipper ligne par ligne, en désignant un objet et en lui indiquant une position, un rayon et une proportion si nécessaire.
+
+
+Pour interagir avec les fichiers .flp, nous avons deux fichiers java : ReaderFLP.java et WriterFLP.java.
+
+
+ReaderFLP.java sert à lire les fichiers flp ligne par ligne afin de créer les objets. Quand il lit une ligne, il comprend de quel objet il s’agit, et créé l'objet à la position indiquée et avec la proportion indiquée. Il interprètera donc le fichier .flp afin de créer des objets.
+
+
+WriterFLP.java sert à l’éditeur de flippers, quand nous voulons sauvegarder un flipper créé. Il repère quel objet nous plaçons sur l’éditeur et va donc l’écrire au fur et à mesure dans un fichier au format .flp, ligne par ligne.

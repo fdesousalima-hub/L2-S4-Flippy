@@ -1,0 +1,50 @@
+#Ball {
+	-fx-stroke: black;
+	-fx-stroke-width: 1;
+	-fx-fill: radial-gradient(focus-distance 0%, center 30% 30%, radius 40%, repeat,
+		white, gray);
+}
+
+#SuperBall {
+	-fx-stroke: black;
+	-fx-stroke-width: 1;
+	-fx-fill: radial-gradient(center 50% 50%, radius 50%, red, orange, yellow, green,
+		blue);
+}
+
+#Flip {
+	-fx-stroke: black;
+	-fx-stroke-width: 1;
+	-fx-fill: url(file:Code/IG/src/main/res/css/Image/Flipper2/Flip.jpg);
+}
+
+#Defeat {
+	-fx-opacity: 0.3;
+	visibility: hidden;
+}
+
+#Launcher {
+	-fx-fill: url(file:Code/IG/src/main/res/css/Image/Flipper2/Launcher.png);
+}
+
+#Slingshot {
+	-fx-fill: url(file:Code/IG/src/main/res/css/Image/Flipper2/Slingshot.jpg);
+}
+
+#Bumper {
+	-fx-fill: url(file:Code/IG/src/main/res/css/Image/Flipper2/Bumper.png);
+}
+
+#CibleFixe {
+	-fx-fill: url(file:Code/IG/src/main/res/css/Image/Flipper2/CibleFixe.png);
+}
+
+#Trou {
+	-fx-fill: url(file:Code/IG/src/main/res/css/Image/Flipper2/Trou.png);
+}
+
+#Planete {
+	-fx-stroke: black;
+	-fx-stroke-width: 1;
+	-fx-fill: url(file:Code/IG/src/main/res/css/Image/Flipper2/Planete.jpeg);
+}

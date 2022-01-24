@@ -1,0 +1,25 @@
+#pane {
+	-fx-background-color: #d3ecff;
+}
+
+#paneLowOpacity {
+	-fx-background-color: rgba(0, 0, 0, .2);
+}
+
+Button {
+	-fx-cursor: hand;
+}
+
+#ScorePane {
+	-fx-background-color: gray;
+	-fx-background-insets: 10;
+	-fx-background-radius: 10;
+	-fx-effect: dropshadow(three-pass-box, black, 10, 0, 0, 0);
+}
+
+#PreviewFlipper {
+	-fx-background-color: #b4d0ff;
+	-fx-background-insets: 10;
+	-fx-background-radius: 10;
+	-fx-effect: dropshadow(three-pass-box, white, 10, 0, 0, 0);
+}
