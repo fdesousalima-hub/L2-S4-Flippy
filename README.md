@@ -32,15 +32,4 @@ Vous pouvez aussi si vous le désirez, visionner le gitstats du projet grâce à
 Les données du projet sont stockées dans des fichier java (en ce qui concerne le code du jeu), et dans des fichiers xml, des fichiers flp pour la création
 des flippers (pour plus de précisions sur les fichiers flp et leurs création nous vous invitons à regarder la documentationFLP) et autres pour le projet Maven plus globalement. Le tout est stocké dans un dépot Git.
 
-
-## Auteurs
-
-Le projet est réalisé par
-
-* De Sousa Fabio
-* Chanez Julien
-* Amorim Pierre
-* Clisson Adam
-
-
 ## Licence
